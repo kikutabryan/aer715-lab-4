@@ -10,12 +10,24 @@ Vsum = 0;   %
 
 % CONTROLLER GAINS - FOR LAB 5 ONLY
 
-Kp = 0;
-Ki = 0;
-Kd = 0;
-Kpt = 0;
-Kit = 0;
-Kdt = 0; 
+% G2_elev1
+% Kp = 24.9;
+% Ki = 3.85;
+% Kd = 48.6;
+
+% G2_elev2
+% Kp = 50.2;
+% Ki = 66.6;
+% Kd = 70.2;
+
+% G2_elev3
+Kp = 84.1;
+Ki = 63.5;
+Kd = 128;
+
+Kpt = 448;
+Kit = 43.4;
+Kdt = 1.38e3; 
 %-----[HELI SET VARIABLES]--------
 % THESE VARIABLE ARE SPECIFIC TO EACH HELICOPTER
 TRAV_SS = 90;
